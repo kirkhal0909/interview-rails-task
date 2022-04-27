@@ -1,0 +1,12 @@
+panel 'History' do
+  table_for assigns[:versions] do
+    column('Restore version') do |v|
+      link_to 'restore',
+              admin_post_path(v.item, post: v.reify&.slice(:message)),
+              method: :patch
+    end
+    column('id') { |v| v.id }
+    column('Message') { |v| (v.reify || v.item).message }
+    column('Modified at') { |v| v.created_at.to_s :long }
+  end
+end
