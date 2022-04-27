@@ -1,24 +1,5 @@
-# README
+# Interview Rails task
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://interview-rails-task.herokuapp.com/
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Создание постов с изменением версий сообщения поста при помощи гема **paper_trail**
