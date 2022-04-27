@@ -1,12 +1,12 @@
 <div class="container">
-  <center><h1>Посты</h1></center>
+  <center><h1>Посты</h1>
   <br>
   <% @posts.each do |post| %>
     <%= bootstrap_form_for(post) do |f| %>        
-      <%= f.static_control :message, skip_label: true %>
-      <hr>
+      <%= f.static_control :message, skip_label: true %>      
     <% end %>
   <% end %>
+  </center>
 </div>
 <br>
 

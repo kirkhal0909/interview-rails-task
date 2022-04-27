@@ -3,8 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.3'
 
+gem 'activeadmin'
 gem 'bootstrap', '5.1.0'
-gem "bootstrap_form", "~> 5.0"
+gem 'bootstrap_form', '~> 5.0'
 gem 'paper_trail'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '5.2.7'
